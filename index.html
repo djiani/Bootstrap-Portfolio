@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Samuel R. Djiani</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <!-- Brand -->
+        <div class="container">
+            <a class="navbar-brand" href="#">Samuel Djiani</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav nav ml-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">AboutMe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container brandImage">
+
+        </div>
+    </div>
+    <div class="container " id="aboutMe">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="assets/image/sam.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Samuel Djiani</h4>
+                        <p class="card-text">
+                            Full Stack Developer
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-12 col-md-8 text-center">
+                <h1>Short Story About Me</h1>
+                <p class="text-left p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptatibus
+                    atque doloribus.
+                    Nostrum assumenda fugit repellendus ab est quibusdam distinctio, error voluptate obcaecati commodi
+                    numquam magnam illum odio officiis impedit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vitae architecto ea officiis
+                    reiciendis. Iusto ipsa illo alias. Voluptates libero assumenda amet iste magni error nam corrupti.
+                    Molestiae, vero libero?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perspiciatis dolor praesentium et,
+                    facere natus incidunt cum officia eligendi ad fugiat nulla suscipit obcaecati consequuntur,
+                    assumenda hic ullam enim placeat. <a href="#" class="btn btn-primary ">More about ...</a>
+                </p>
+                <div class="btn-download-anim text-left">
+                    <a href="#" class="btn btn-primary ">Downlod a copy of CV</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center" id="contact">
+        <h1>Contact</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h3>Send Me Note!</h3>
+                <form class=" border border-lg p-5">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" rows="5" id="message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="row contact_list">
+                    <div class="p-1 contact_list" >
+                        <h3>Check Me On</h3>
+                        <ul class="list-group list-group-flush text-left ">
+                            <li class="list-group-item"><strong>Github: </strong><a href="https://github.com/djiani">Djiani</a></li>
+                            <li class="list-group-item"><strong>Email: </strong><a href="mailto:djiasara@gmail.com">djiasara@gmail.com</a></li>
+                            <li class="list-group-item"><strong>Portfolio: </strong><a href="">Coming soon</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="assets/image/full-stack.jpg" alt="full stack image" width="90%">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center" id="portfolio">
+        <h1>Portfolio</h1>
+
+        <div id="myportfolio" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#myportfolio" data-slide-to="0" class="active"></li>
+                <li data-target="#myportfolio" data-slide-to="1"></li>
+                <li data-target="#myportfolio" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/image/sam.jpg" alt="Los Angeles" width="1100" height="500">
+                    <div class="carousel-caption">
+                        <h3>Samuel</h3>
+                        <p>A marveleous fun day!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/image/samuel.jpg" alt="Chicago" width="1100" height="500">
+                    <div class="carousel-caption">
+                        <h3>Another</h3>
+                        <p>Another fun day</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/image/samuel.jpg" alt="New York" width="1100" height="500">
+                    <div class="carousel-caption">
+                        <h3>What the fun day</h3>
+                        <p>heeeeee</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myportfolio" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myporfolio" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
