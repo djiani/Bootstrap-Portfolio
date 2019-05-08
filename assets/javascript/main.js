@@ -1,5 +1,6 @@
 function animate_header(){
-    let list =["Creative and simple solutions", "Interatives web applications", "Intuitive and response UX/UI"];
+    let list2 =["Simple", "Interative", "Intuitive", "responsible", "Mobile first", "Applications"];
+    let list =["Creative", "Innovative","Motivated","self-disciplined","detailed-oriented","Problem Solving", "Teamwork"];
     let i = 1;
     timer = setInterval(function(){
       $('.animated_text').html(list[i]);
