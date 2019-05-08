@@ -1,11 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url('http://wallpaperclicker.com/storage/wallpaper/Hd-Backgrounds-23710610.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron{
+    margin-top: 10px;
+    height: 260px;
+    background-image: url("../image/fullstack-training-in-hyderabad.png");
+    margin-top: 0px;
+    
+}
+
 #aboutMe{
-    background: rgba(76, 175, 80, 0.1);
+    background:  rgba(115, 155, 6, 0.4);
     padding: 10px;
     margin: 0px auto;
 }
-
+.aboutMeText{
+    height: 100%;
+}
 #contact{
-    background: rgba(115, 155, 6, 0.2);
+    background:  rgba(255, 255, 255, 0.4);
     padding: 10px;
     margin: 10px auto;
 
@@ -18,36 +38,12 @@
 
 }
 
-.jumbotron{
-    margin-top: 10px;;
-    height: 240px;
-    background-image: url("../image/fullstack-training-in-hyderabad.png");
-    background-position: cover;
-    
-}
+
 .contact-list{
     width: 90%;
 }
 
-.btn-download-anim{
-    
-    position: relative;
-    animation: animBtn 5s inifinite;
-    animation-iteration-count: 3;
-    animation-timing-function: ease-in-out;
-    -webkit-animation: animBtn 5s infinite;
-    -webkit-animation-iteration-count: 3;
 
+  @media only screen and (min-width: 320){
 
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes animBtn {
-    from {left: 0px;}
-    to {left: 200px;}
-  }
-  
-  @keyframes animBtn {
-    from {left: 0px;}
-    to {left: 200px;}
   }
