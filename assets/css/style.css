@@ -31,6 +31,10 @@ body{
 
 }
 
+.checkMe, .sendNote{
+    height: 100%;
+}
+
 #portfolio{
     background: rgba(255, 255, 255, 0.4);
     padding: 10px;
@@ -67,9 +71,8 @@ body{
     width: 90%;
     margin:0 auto;
 }
-.modal_techUsed{
-    
-}
+
+
 
 
 
@@ -79,6 +82,24 @@ body{
 }
 
 
-  @media only screen and (min-width: 320){
+  @media only screen and (min-width: 678px){
+    .img_project_block{
+        width: 80%;
+        margin:0 auto;
+    
+    }
+    .img_project{
+        height: 100%;
+        width: 100%;
+    }
+    .desc_project{
+        font-size: 1em;
+    }
+    
+    .techBlock{
+        width: 80%;
+        margin:0 auto;
+    }
+    
 
   }
