@@ -8,6 +8,7 @@ function animate_header(){
   
 }
 
+
   $(document).ready(function(){
       animate_header();
       $(".project_desc").on("click", function(event){
