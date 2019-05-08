@@ -10,4 +10,9 @@ function animate_header(){
 
   $(document).ready(function(){
       animate_header();
+      $(".project_desc").on("click", function(event){
+          let index = $(this).attr("data-item")
+          console.log(index);
+          $(".des_project-"+index).toggle();
+      })
   })

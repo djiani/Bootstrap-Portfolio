@@ -32,12 +32,33 @@ body{
 }
 
 #portfolio{
-    background: rgba(114, 173, 116, 0.1);
+    background: rgba(255, 255, 255, 0.4);
     padding: 10px;
     margin: 10px auto;
 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 500px;
+
+
 }
 
+.project{
+    width: 80%;
+    height: 400px;
+    margin:20px;
+   display: inline-block;
+}
+.img_project_block{
+    height: 250px;
+    widows: 80%;
+
+}
+.img_project{
+    height: 100%;
+    width: 80%;
+}
 
 .contact-list{
     width: 90%;
